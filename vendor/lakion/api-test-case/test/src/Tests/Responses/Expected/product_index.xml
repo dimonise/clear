@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<response>
+  <item key="0">
+    <id>@string@</id>
+    <name>Phone</name>
+    <price>200</price>
+  </item>
+  <item key="1">
+    <id>@string@</id>
+    <name>Book</name>
+    <price>15</price>
+  </item>
+  <item key="2">
+    <id>@string@</id>
+    <name>Mug</name>
+    <price>5</price>
+  </item>
+</response>

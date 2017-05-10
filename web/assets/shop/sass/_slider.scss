@@ -1,0 +1,40 @@
+.slider {
+	.owl-carousel {
+		.owl-dots {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			width: 100%;
+			bottom: 10px;
+			.owl-dot {
+				width: 10px;
+				height: 10px;
+				margin: 0 5px;
+				background: #D6D6D6;
+				border-radius: 50%;
+				display: inline-block;
+				&:hover {
+					background: #666;
+				}
+			}
+			.active {
+				background: #666;
+			}
+		}
+	}
+	.btn-slider {
+		position: absolute;
+		color: #fff;
+		text-transform: uppercase;
+		border: 1px solid #77b4c0;
+		border-radius: 2px;
+		background: rgba(92, 165, 183, 0.75);
+		left: calc(50% - 80px);
+		bottom: 60px;
+		text-decoration: none;
+		height: 36px;
+		line-height: 36px;
+		padding: 0 16px;
+	}
+}

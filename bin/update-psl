@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+SRC_DIR="`pwd`"
+cd "`dirname "$0"`"
+cd "../vendor/jeremykendall/php-domain-parser/bin"
+BIN_TARGET="`pwd`/update-psl"
+cd "$SRC_DIR"
+"$BIN_TARGET" "$@"

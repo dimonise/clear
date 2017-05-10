@@ -1,0 +1,17 @@
+[
+    {
+        "id": @integer@,
+        "name": "Phone",
+        "price": 200
+    },
+    {
+        "id": @integer@,
+        "name": "Book",
+        "price": 15
+    },
+    {
+        "id": @integer@,
+        "name": "Mug",
+        "price": 5
+    }
+]

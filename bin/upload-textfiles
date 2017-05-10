@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+SRC_DIR="`pwd`"
+cd "`dirname "$0"`"
+cd "../vendor/lakion/mink-debug-extension/travis/tools"
+BIN_TARGET="`pwd`/upload-textfiles"
+cd "$SRC_DIR"
+"$BIN_TARGET" "$@"

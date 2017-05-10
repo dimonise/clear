@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+SRC_DIR="`pwd`"
+cd "`dirname "$0"`"
+cd "../vendor/se/selenium-server-standalone/bin"
+BIN_TARGET="`pwd`/selenium-server-standalone"
+cd "$SRC_DIR"
+"$BIN_TARGET" "$@"
